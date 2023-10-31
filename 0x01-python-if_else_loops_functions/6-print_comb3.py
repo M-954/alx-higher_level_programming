@@ -5,5 +5,5 @@ while a < 9:
         if int('{}{}'.format(a, b)) < 89:
             print('{}{}'.format(a, b), end=', ')
         else:
-                print('{}{}'.format(a, b))
+            print('{}{}'.format(a, b))
     a += 1
