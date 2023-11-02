@@ -13,4 +13,4 @@ if __name__ == "__main__":
     print('{} * {} = {}'.format(a, b, result))
     from calculator_1 import div
     result = div(a, b)
-    print('{} + {} = {}'.format(a, b, result))
+    print('{} / {} = {}'.format(a, b, result))
