@@ -3,8 +3,6 @@ if __name__ == "__main__":
     import sys
     count = len(sys.argv)
     output = 0
-    if count == 1:
-        print(0)
     for i in range(1, count):
         output += int(sys.argv[i])
     print('{}'.format(output))
