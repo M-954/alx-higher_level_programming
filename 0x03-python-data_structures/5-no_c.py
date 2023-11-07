@@ -5,4 +5,4 @@ def no_c(my_string):
     for char in mylist:
         if char != 'c' and char != 'C':
             newlist.append(char)
-    return("".join(newlist))
+    return ("".join(newlist))
