@@ -4,16 +4,19 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * struct node - a defined datatype for a node
- * @n: data of type integer to be stored in the node
- * @next: pointer to the next node
- * @prev: pointer to the pevious node
+ * struct dlistint_s - doubly linked list
+ * @n: integer
+ * @prev: points to the previous node
+ * @next: points to the next node
+ *
+ * Description: doubly linked list node structure
+ *
  */
-typedef struct node
+typedef struct dlistint_s
 {
 	int n;
-	struct node *next;
-	struct node *prev;
+	struct dlistint_s *prev;
+	struct dlistint_s *next;
 } dlistint_t;
 size_t print_dlistint(const dlistint_t *h);
 #endif
