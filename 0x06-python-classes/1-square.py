@@ -6,6 +6,4 @@ class Square:
 
     def __init__(self, size):
         """initializing the square and giving it a private length"""
-
-        
         self.__size = size
