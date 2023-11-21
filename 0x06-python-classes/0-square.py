@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 class Square:
-    """An empty class of the name square"""
+    """A class of name square. Has an empty body"""
     pass
