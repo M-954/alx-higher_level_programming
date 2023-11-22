@@ -77,6 +77,7 @@ class Square:
         """
         area = self.__size ** 2
         return (area)
+
     def my_print(self):
         """
         Prints representation of square using # character
