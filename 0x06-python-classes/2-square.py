@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """A project onclasses and object"""
 
+
 class Square:
     """A square defined class"""
     def __init__(self, size=0):
