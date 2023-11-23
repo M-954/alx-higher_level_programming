@@ -22,7 +22,8 @@ class Square:
 
         args:
         size(int): length of one side
-        position tuple ((int), (int)): gives the horizontal and vertical position
+        position tuple ((int), (int)): gives the horizontal and \
+                 vertical position
 
 
         Raises:
@@ -71,7 +72,8 @@ class Square:
 
 
         Attributes:
-        __position: the vertical offset for new line and horizontal offset for spaces
+        __position: the vertical offset for new line and \
+                    horizontal offset for spaces
 
 
         Raises:
@@ -86,7 +88,8 @@ class Square:
 
 
         Attributes:
-        __position: the vertical offset for new line and horizontal offset for spaces
+        __position: the vertical offset for new line \
+                    and horizontal offset for spaces
 
 
 
@@ -101,7 +104,8 @@ class Square:
             raise TypeError('position must be a tuple of 2 positive integers')
         for i in value:
             if type(i) is not int or i < 0:
-                raise TypeError('position must be a tuple of 2 positive integers')
+                raise TypeError('position must be a tuple \
+                                of 2 positive integers')
         self.__position = value
 
     def area(self):
@@ -125,9 +129,9 @@ class Square:
         __size(int): length of one side
         """
         for _ in range(self.__position[1]):
-                print()
+            print()
 
         for _ in range(self.__size):
-                print(" " * self.__position[0] + '#' * self.__size)
+            print(" " * self.__position[0] + '#' * self.__size)
         if self.__size == 0:
             print()
