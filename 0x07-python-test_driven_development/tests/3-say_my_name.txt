@@ -13,6 +13,9 @@ My name is Caleb Momanyi
 >>> say_my_name("Sharon", "99")
 My name is Sharon 99
 
+>>> say_my_name("Sharon")
+My name is Sharon 
+
 >>> say_my_name(2, "Momanyi")
 Traceback (most recent call last):
   ...
