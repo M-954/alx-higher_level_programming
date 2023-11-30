@@ -4,6 +4,16 @@ A 5-text_indentation module
 """
 
 def text_indentation(text):
+    """
+    A module that prints a text with 2 new lines
+    after each of these characters: ., ? and :
+
+
+    Attribute:
+    text (str) - the text to be printed
+    raise:
+    TypeError - if text is not a string
+    """
     if not isinstance(text, str):
         raise TypeError("text must be a string")
 
