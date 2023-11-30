@@ -1,0 +1,24 @@
+A test fo the 3-say_my_name module
+>>> say_my_name = __import__('3-say_my_name').say_my_name
+
+>>> say_my_name("Sharon", "Momanyi")
+My name is Sharon Momanyi
+
+>>> say_my_name("Martha", "Momanyi")
+My name is Martha Momanyi
+
+>>> say_my_name("Caleb", "Momanyi")
+My name is Caleb Momanyi
+
+>>> say_my_name("Sharon", "99")
+My name is Sharon 99
+
+>>> say_my_name(2, "Momanyi")
+Traceback (most recent call last):
+  ...
+TypeError: first_name must be a string
+
+>>> say_my_name('vault', 5.7)
+Traceback (most recent call last):
+  ...
+TypeError: last_name must be a string
