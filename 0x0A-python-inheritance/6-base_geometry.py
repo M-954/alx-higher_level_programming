@@ -1,4 +1,4 @@
-#!/usr/bin/pythonn3
+#!/usr/bin/python3
 '''
 A 6-base_geometry module
 '''
