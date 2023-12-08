@@ -59,3 +59,8 @@ TypeError: mile must be an integer
 Traceback (most recent call last):
         ...
 TypeError: integer_validator() missing 1 required positional argument: 'value'
+
+>>> bg.integer_validator('mile', {9,7})
+Traceback (most recent call last):
+        ...
+TypeError: mile must be an integer
