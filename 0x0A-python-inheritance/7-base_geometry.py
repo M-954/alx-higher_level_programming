@@ -31,7 +31,7 @@ class BaseGeometry:
             raise TypeError('{} must be an integer'.format(name))
         if value <= 0:
             raise ValueError('{} must be greater than 0'.format(name))
-        if not name and not value:
+        if name is None and value is None:
             raise TypeError("integer_validator() missing 2 required "
                             "positional arguments: 'name' and 'value'")
         if value is None:
