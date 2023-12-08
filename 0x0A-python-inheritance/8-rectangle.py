@@ -38,8 +38,25 @@ class BaseGeometry:
             raise TypeError("integer_validator() missing 1 required "
                             "positional argument: 'value'")
 
+
 class Rectangle(BaseGeometry):
+    '''
+    A class rectangle that inherits from basegeometry
+    '''
     def __init__(self, width, height):
+        '''
+        initialization of the class rectangle
+
+
+        attributes:
+        self.width - the legth of the shorter side
+        height: the length of the longer side
+
+
+        args:
+        self.width - the legth of the shorter side
+        height: the length of the longer side
+        '''
         super().__init__()
         self.integer_validator('width', width)
         self.integer_validator('height', height)
