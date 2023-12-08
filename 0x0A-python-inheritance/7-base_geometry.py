@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#!/usr/bin/python3
 '''
 A 6-base_geometry module
 '''
@@ -14,6 +13,7 @@ class BaseGeometry:
     '''
     def area(self):
         raise Exception('area() is not implemented')
+
     def integer_validator(self, name, value):
         '''
         An integer validator method
