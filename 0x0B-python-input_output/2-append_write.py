@@ -2,6 +2,8 @@
 '''
 An implementation of the 2-append_write module
 '''
+
+
 def append_write(filename="", text=""):
     '''
     Implementation of the append file handling method
