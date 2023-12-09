@@ -9,4 +9,4 @@ def read_file(filename=""):
     Implementation of the read file handling method
     '''
     with open(filename, "r", encoding="UTF8") as file:
-        print(file.read())
+        print(file.read(), end='')
